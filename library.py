@@ -1,4 +1,4 @@
-avlbooks = ["Python", "Java", "html", "C++"]
+avlbooks = ["python", "java", "html", "c++"]
 
 
 class library:
@@ -45,6 +45,7 @@ if __name__ == "__main__":
 
         elif option == 2:
             name = input("Enter the name of the book: ")
+            name = name.lower()
             if name == "":
                 print("Please Enter a valid name")
                 False
